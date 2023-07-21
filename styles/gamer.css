@@ -114,6 +114,7 @@ background-clip: text;
   align-items: flex-end;
 }
 .we-are-gamer-container{
+  background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
   display: flex;
   padding: 60px 240px;
   justify-content: space-between;
@@ -128,6 +129,16 @@ margin: 5px 0;
 }
 
 /* <!-- Online Games Funny Videos start --> */
+.section-header{
+  text-align: center;
+  padding: 32px 0;
+}
+.section-img{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+
+}
 
 
 /* <!-- Play Instantly,No DownloadsNo Installs.start --> */
