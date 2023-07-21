@@ -28,7 +28,6 @@ color: white;}
 background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
-text-align: right;
 font-size: 48px;
 font-weight: 700;
 }
@@ -109,16 +108,23 @@ background-clip: text;
 }
 
 /* main related styles */
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
 .we-are-gamer-container{
   display: flex;
   padding: 60px 240px;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
 }
 .section-description{
   color: #534C64;
-text-align: right;
 font-size: 18px;
 font-weight: 400;
+text-align: justify;
+margin: 5px 0;
 }
 
 /* <!-- Online Games Funny Videos start --> */
