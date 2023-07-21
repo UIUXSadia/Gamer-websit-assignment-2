@@ -139,11 +139,36 @@ margin: 5px 0;
   gap: 10px;
 
 }
+.section-img p{
+  width: 240px;
+  text-align: center;
+}
 
 
 /* <!-- Play Instantly,No DownloadsNo Installs.start --> */
 
 .installs-container{
+  padding: 48px 240px;
+  display: flex;
+  align-items: center;
+}
+.download-content{
+  text-align: right;
+  padding: 0 40px;
+}
+.main-content{
+font-size: 48px;
+font-weight: 700;
+}
+.main-content > p{
+  font-size: 24px;
+  line-height: 1.6;
+}
 
+.main-content span{
+  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 }
 
