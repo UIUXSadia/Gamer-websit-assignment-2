@@ -39,10 +39,22 @@ nav {
   display: flex;
   justify-content: space-between;
 }
-nav > ul {
+nav .logo {
   display: flex;
+  align-items: center;
+  gap: 20px;
 }
+nav img{
+  height: 35px;
+}
+.logo h3{
+  font-size: 45px;
+  font-weight: 700;
+
+}
+
 nav li {
+  display: inline;
   list-style: none;
   margin: 32px;
   color: #3c354f;
@@ -50,15 +62,12 @@ nav li {
   font-size: 18px;
   font-weight: 500;
 }
-nav .logo {
-  width: 86.041px;
-  height: 40px;
-  text-align: center;
-  font-size: 45px;
-  font-weight: 700;
-}
+
 nav.btn-hed {
-  width: 262px;
+  border: none;
+  border-radius: 8px;
+background: rgba(11, 2, 35, 0.10);
+
   
 }
 
@@ -95,3 +104,13 @@ text-align: right;
 font-size: 18px;
 font-weight: 400;
 }
+
+/* <!-- Online Games Funny Videos start --> */
+
+
+/* <!-- Play Instantly,No DownloadsNo Installs.start --> */
+
+.installs-container{
+
+}
+
