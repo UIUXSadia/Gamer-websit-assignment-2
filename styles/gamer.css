@@ -64,7 +64,8 @@ nav img{
 .navbar li {
   display: inline;
   list-style: none;
-  align-items: center;
+  line-height: 4;
+  
   
 }
 .navbar li>a{
@@ -74,6 +75,7 @@ nav img{
   font-size: 18px;
   font-weight: 500;
   text-decoration: none;
+
 }
 .btn-hed {
   padding: 18px 24px;
@@ -87,7 +89,8 @@ background-color: rgba(11, 2, 35, 0.10);
 /* banner related styles */
 .banner{
   display: flex;
-  gap: 20%;
+  align-items: center;
+  justify-content: space-between;
 }
 .banner-title{
     color: #0B0223;
