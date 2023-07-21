@@ -1,5 +1,6 @@
 /* work sans font from googl font */
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;0,900;1,400&family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400&family=Work+Sans:wght@400;500;600;700;800&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -11,9 +12,9 @@
 .btn-primary{
     border-radius: 48px;
     background-color: #F948B2;
-padding: 15px 30px;
-border: none;
-color: white;
+  padding: 15px 30px;
+  border: none;
+  color: white;
 }
 .btn-primary2{
     border-radius: 48px;
@@ -37,10 +38,12 @@ header {
   border: 1px solid red;
   padding: 0 240px;
 }
-nav {
+nav{
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
+
 nav .logo {
   display: flex;
   align-items: center;
@@ -54,19 +57,29 @@ nav img{
   font-weight: 700;
 
 }
-.navright{
+.nav-right{
   display: flex;
 }
 
 .navbar li {
   display: inline;
+  list-style: none;
+  align-items: center;
   
 }
-
-nav.btn-hed {
+.navbar li>a{
+  margin: 32px;
+  color: #3c354f;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+}
+.btn-hed {
+  padding: 18px 24px;
   border: none;
   border-radius: 8px;
-background: rgba(11, 2, 35, 0.10);
+background-color: rgba(11, 2, 35, 0.10);
 
   
 }
